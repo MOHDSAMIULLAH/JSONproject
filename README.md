@@ -37,11 +37,11 @@ This Java program reads a list of JSON objects from a JSON file, processes each 
 
 5. Compile the Java source code by running the following command:</br>
 
-      <b>javac -cp lib\\* src\test\java\jsonproject\jsonproject\ReadDataFromJSON.java</b>
+      <b>javac -cp lib\\* src\main\java\jsonproject\jsonproject\ReadDataFromJSON.java</b>
 
 6. Run the program using the following command:
     
-   <b> java -cp lib\\* src\test\java\jsonproject\jsonproject\ReadDataFromJSON.java jsonfiles\input.json</b></br>
+   <b> java -cp lib\\* src\main\java\jsonproject\jsonproject\ReadDataFromJSON.java jsonfiles\input.json</b></br>
    
 This will process the input JSON file and generate an output JSON file named output.json in the project directory.
 
